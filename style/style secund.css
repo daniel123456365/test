@@ -1,0 +1,94 @@
+body {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.logo {
+    margin-right: 80px;
+    margin-left: 10%;
+    width: 8px;
+    height: 35px;
+}
+
+.logo img {
+    position: absolute;
+    width: 8%;
+    height: 100px;
+}
+
+.login {
+    padding-left: 10%;
+    margin-left: 80%;
+    width: 65px;
+    height: 35px;
+    font-size: 70px
+}
+
+.login i {
+    position: relative;
+    bottom: 50px;
+    right: 100px;
+    width: 100px;
+    height: 75px;
+}
+
+.login :active {
+    background-color: none;
+    color: rgba(0, 0, 0, 0.496);
+    background-blend-mode: darken;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+a:link,
+a:visited {
+    font-weight: normal;
+    font-size: 100%;
+    font-family: Calibr;
+    font-style: normal;
+    color: rgba(0, 0, 0, 0.66);
+    background-color: none;
+    text-align: center;
+    padding: 9px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(194, 2, 2);
+    background-blend-mode: difference;
+}
+
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-mid {
+    background-color: rgba(211, 211, 235, 0.707);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    padding: 45px;
+    margin-top: 0%;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,102 @@
+.body {
+    background-color: silver;
+}
+
+a {
+    text-transform: unset;
+    text-decoration: gray;
+    color: gray;
+}
+
+.header {
+    height: 85px;
+    background-color: white;
+}
+
+.container {
+    width: 1532px;
+    height: 79px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding-left: 50px;
+    margin-left: 650px;
+    width: 95px;
+    height: 50px;
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    width: 80%;
+    height: 120px;
+}
+
+.nav {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.login {
+    margin-top: 90px;
+}
+
+.login h1 {
+    text-align: center;
+    font-size: 36px;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+    color: gray;
+}
+
+.login form {
+    text-align: center;
+}
+
+.login form input:last-child {
+    cursor: pointer;
+    background-color: seashell;
+    width: 287px;
+    height: 40px;
+    background-color: #F8F8FF;
+}
+
+.login form input {
+    width: 280px;
+    height: 35px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    text-indent: 5px;
+    padding: 3 px;
+    background-color: #F8F8FF;
+}
+
+.login form input:last-child:hover {
+    background-color: rgb(21, 86, 199);
+}
+
+.nav {
+    margin-top: 35px;
+}
+
+.nav ul {
+    text-align: center;
+}
+
+.nav ul li {
+    display: inline-block;
+    font-size: 20px;
+    font-family: cursive;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+.a {
+    text-decoration: none;
+}
